@@ -2,6 +2,7 @@ import resumex from "../assets/projects/ResumeX.png";
 import rolefinder from "../assets/projects/RoleFinder.png";
 import automation from "../assets/projects/automation.png";
 import taskmanager from "../assets/projects/taskmanager.png";
+import loanlens from "../assets/projects/Loanlens.png";
 
 const projects = [
   {
@@ -40,6 +41,15 @@ const projects = [
     github: "https://github.com/anjan0546/mern-task-manager",
     live: "https://mern-task-manager-ozs9.vercel.app/",
   },
+  {
+  title: "LoanLens",
+  image: loanlens,
+  description:
+    "Premium EMI and Loan Comparison Calculator with interactive financial insights, animated visualizations, loan comparison tools, and responsive modern UI.",
+  tech: ["HTML", "CSS", "JavaScript", "Antigravity AI"],
+  github: "https://github.com/anjan0546/loanlens-emi-calculator",
+  live: "https://soft-tartufo-f8cd9c.netlify.app/",
+},
 ];
 
 const Projects = () => {
