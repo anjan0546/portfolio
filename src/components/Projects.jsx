@@ -3,6 +3,7 @@ import rolefinder from "../assets/projects/RoleFinder.png";
 import automation from "../assets/projects/automation.png";
 import taskmanager from "../assets/projects/taskmanager.png";
 import loanlens from "../assets/projects/Loanlens.png";
+import NeuroBizAI from "../assets/projects/NeuroBizAI.png";
 
 const projects = [
   {
@@ -49,6 +50,15 @@ const projects = [
   tech: ["HTML", "CSS", "JavaScript", "Antigravity AI"],
   github: "https://github.com/anjan0546/loanlens-emi-calculator",
   live: "https://soft-tartufo-f8cd9c.netlify.app/",
+},
+{
+  title: "NeuroBiz AI",
+  image: NeuroBizAI,
+  description:
+    "AI-powered business intelligence platform for analyzing business data and generating actionable insights.",
+  tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Gemini API"],
+  github: "https://github.com/knitsri/NeuroBiz-AI/tree/main/src",
+  live: "https://neurobiz-ai.onrender.com/owner/dashboard",
 },
 ];
 
